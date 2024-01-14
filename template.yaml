@@ -35,7 +35,7 @@ Resources:
   AWSCostExplorerSlackAppFunctionRole:
       Type: AWS::IAM::Role
       Properties:
-        RoleName: SlackAppFunctionRole
+        RoleName: AWSCostExplorerSlackAppFunctionRole
         AssumeRolePolicyDocument:
           Version: '2012-10-17'
           Statement:
@@ -73,6 +73,10 @@ Resources:
                     - logs:CreateLogStream
                     - logs:PutLogEvents
                   Resource: "*"
+                - Effect: Allow
+                  Action:
+                    - ce:GetCostAndUsage
+                  Resource: '*'
   
   AWSCostExplorerSlackAppFunction:
     Type: AWS::Serverless::Function
