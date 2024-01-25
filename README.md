@@ -45,7 +45,7 @@ Check Current AWS Costs within Slack (*현재 AWS 요금을 Slack에서 확인*)
 <br/>
 
 # Installation
-#### [🇰🇷 Use Guide](https://hyunsuko.notion.site/AWS-Cost-Explorer-Slack-App-78232e6f536e40dd81acbc2c3329ea08?pvs=4)
+#### [🇰🇷 Installation Guide](https://hyunsuko.notion.site/AWS-Cost-Explorer-Slack-App-78232e6f536e40dd81acbc2c3329ea08?pvs=4)
 
 - Lambda Functions and S3 Buckets are needed to deploy a Slack App.
   
